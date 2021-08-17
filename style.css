@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+}
+.nevbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.header{
+    background: radial-gradient(white, rgba(255, 0, 0, 0.342));
+}
+nav ul li{
+    background-color: rgba(44, 15, 10, 0.925);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav ul li:hover{
+    background-color: red;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
